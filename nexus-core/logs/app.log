@@ -1,0 +1,5 @@
+2026-07-18 00:32:27.366 | INFO     | app.core.bootstrap:start:8 - ============================================================
+2026-07-18 00:32:27.366 | INFO     | app.core.bootstrap:start:9 - Starting Nexus AI
+2026-07-18 00:32:27.366 | INFO     | app.core.bootstrap:start:10 - Version : 0.1.0
+2026-07-18 00:32:27.366 | INFO     | app.core.bootstrap:start:11 - Bootstrap completed successfully.
+2026-07-18 00:32:27.366 | INFO     | app.core.bootstrap:start:12 - ============================================================
