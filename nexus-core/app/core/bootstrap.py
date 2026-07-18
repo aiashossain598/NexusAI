@@ -4,7 +4,7 @@ from app.core.registry import registry
 from app.events.event import Event
 from app.events.event_bus import event_bus
 from app.utils.logger import app_logger
-
+from app.plugins.loader import plugin_loader
 
 class Bootstrap:
     def start(self) -> None:
@@ -12,10 +12,12 @@ class Bootstrap:
         container.register("settings", settings)
         container.register("logger", app_logger)
         container.register("event_bus", event_bus)
+        container.register("plugin_loader", plugin_loader)
 
         registry.add("settings", settings)
         registry.add("logger", app_logger)
         registry.add("event_bus", event_bus)
+        registry.add("plugin_loader", plugin_loader)
 
         # Event listener
         def startup_listener(event: Event) -> None:
