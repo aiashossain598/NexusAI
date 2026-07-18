@@ -1,0 +1,35 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.env
+
+# Flutter
+.dart_tool/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# VS Code
+.vscode/
+
+# IntelliJ
+.idea/
+
+# Logs
+logs/
+*.log
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Python cache
+.pytest_cache/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+
+# Windows
+*.exe
