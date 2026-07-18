@@ -26,3 +26,12 @@
 2026-07-18 13:37:25.534 | INFO     | app.core.bootstrap:startup_listener:16 - Event Received -> startup
 2026-07-18 13:37:25.534 | INFO     | app.core.bootstrap:start:28 - Bootstrap completed successfully.
 2026-07-18 13:37:25.534 | INFO     | app.core.bootstrap:start:29 - ============================================================
+2026-07-18 13:47:53.395 | INFO     | app.core.bootstrap:start:27 - ============================================================
+2026-07-18 13:47:53.395 | INFO     | app.core.bootstrap:start:28 - Starting Nexus AI
+2026-07-18 13:47:53.395 | INFO     | app.core.bootstrap:start:29 - Version : 0.1.0
+2026-07-18 13:47:53.400 | INFO     | app.core.bootstrap:start:30 - Environment : development
+2026-07-18 13:47:53.401 | INFO     | app.core.bootstrap:start:31 - Registered Services : ['event_bus', 'logger', 'settings']
+2026-07-18 13:47:53.404 | INFO     | app.core.bootstrap:start:32 - Registry : ['settings', 'logger', 'event_bus']
+2026-07-18 13:47:53.407 | INFO     | app.core.bootstrap:startup_listener:22 - Event Received -> startup
+2026-07-18 13:47:53.408 | INFO     | app.core.bootstrap:start:37 - Bootstrap completed successfully.
+2026-07-18 13:47:53.409 | INFO     | app.core.bootstrap:start:38 - ============================================================
