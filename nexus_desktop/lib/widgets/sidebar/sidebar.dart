@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'sidebar_item.dart';
 
 class NexusSidebar extends StatelessWidget {
   const NexusSidebar({super.key});
@@ -6,22 +7,29 @@ class NexusSidebar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: 90,
-      color: const Color(0xff111827),
-      child: Column(
-        children: const [
-          SizedBox(height: 20),
-          Icon(Icons.psychology, size: 36),
+      width: 240,
+      color: const Color(0xFF111827),
+      padding: const EdgeInsets.symmetric(vertical: 20),
+      child: const Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Padding(
+            padding: EdgeInsets.symmetric(horizontal: 20),
+            child: Text(
+              "Nexus AI",
+              style: TextStyle(
+                fontSize: 28,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+          ),
           SizedBox(height: 30),
-          Icon(Icons.dashboard),
-          SizedBox(height: 20),
-          Icon(Icons.chat),
-          SizedBox(height: 20),
-          Icon(Icons.memory),
-          SizedBox(height: 20),
-          Icon(Icons.folder),
-          SizedBox(height: 20),
-          Icon(Icons.settings),
+          SidebarItem(icon: Icons.chat_bubble_outline, title: "Chat"),
+          SidebarItem(icon: Icons.memory, title: "Memory"),
+          SidebarItem(icon: Icons.smart_toy_outlined, title: "Agents"),
+          SidebarItem(icon: Icons.folder_open, title: "Files"),
+          SidebarItem(icon: Icons.language, title: "Internet"),
+          SidebarItem(icon: Icons.settings, title: "Settings"),
         ],
       ),
     );
