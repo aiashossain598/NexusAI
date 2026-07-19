@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+
+import '../../widgets/neural_core/neural_core.dart';
+import '../../widgets/system_monitor/system_monitor.dart';
 import 'dashboard_layout.dart';
 
 class DashboardPage extends StatelessWidget {
@@ -7,10 +10,20 @@ class DashboardPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DashboardLayout(
-      child: Center(
-        child: Text(
-          "Dashboard",
-          style: Theme.of(context).textTheme.headlineMedium,
+      child: Padding(
+        padding: const EdgeInsets.all(24),
+        child: Column(
+          children: const [
+            Expanded(
+              flex: 5,
+              child: NeuralCore(),
+            ),
+            SizedBox(height: 20),
+            Expanded(
+              flex: 2,
+              child: SystemMonitor(),
+            ),
+          ],
         ),
       ),
     );
