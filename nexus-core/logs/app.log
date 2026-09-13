@@ -44,3 +44,12 @@
 2026-07-18 13:53:48.873 | INFO     | app.core.bootstrap:startup_listener:24 - Event Received -> startup
 2026-07-18 13:53:48.874 | INFO     | app.core.bootstrap:start:39 - Bootstrap completed successfully.
 2026-07-18 13:53:48.875 | INFO     | app.core.bootstrap:start:40 - ============================================================
+2026-09-13 23:17:31.830 | INFO     | app.core.bootstrap:start:48 - ============================================================
+2026-09-13 23:17:31.833 | INFO     | app.core.bootstrap:start:49 - Starting Nexus AI
+2026-09-13 23:17:31.843 | INFO     | app.core.bootstrap:start:50 - Version : 0.1.0
+2026-09-13 23:17:31.844 | INFO     | app.core.bootstrap:start:51 - Environment : development
+2026-09-13 23:17:31.844 | INFO     | app.core.bootstrap:start:52 - Registered Services : ['confirmation_manager', 'event_bus', 'logger', 'plugin_loader', 'settings', 'tool_executor', 'workspace_policy']
+2026-09-13 23:17:31.844 | INFO     | app.core.bootstrap:start:53 - Registry : ['settings', 'logger', 'event_bus', 'plugin_loader', 'workspace_policy', 'confirmation_manager', 'tool_executor', 'coding_agent_factory']
+2026-09-13 23:17:31.857 | INFO     | app.core.bootstrap:startup_listener:43 - Event Received -> startup
+2026-09-13 23:17:31.860 | INFO     | app.core.bootstrap:start:58 - Bootstrap completed successfully.
+2026-09-13 23:17:31.860 | INFO     | app.core.bootstrap:start:59 - ============================================================
