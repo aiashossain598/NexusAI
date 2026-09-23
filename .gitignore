@@ -1,8 +1,19 @@
-# Python
+# Python environments and generated files
 .venv/
+venv/
+env/
+ENV/
+**/.venv/
+**/venv/
+**/env/
+**/ENV/
 __pycache__/
 *.pyc
+*.pyo
 .env
+.env.*
+!.env.example
+!.env.*.example
 
 # Flutter
 .dart_tool/
@@ -19,6 +30,11 @@ build/
 # Logs
 logs/
 *.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
 
 # OS
 Thumbs.db
@@ -26,6 +42,8 @@ Thumbs.db
 
 # Python cache
 .pytest_cache/
+.mypy_cache/
+.ruff_cache/
 
 # CMake
 CMakeFiles/
