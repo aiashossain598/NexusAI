@@ -1,0 +1,58 @@
+# Python environments and generated files
+.venv/
+venv/
+env/
+ENV/
+**/.venv/
+**/venv/
+**/env/
+**/ENV/
+__pycache__/
+*.pyc
+*.pyo
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Flutter
+.dart_tool/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# VS Code
+.vscode/
+
+# IntelliJ
+.idea/
+
+# Logs
+logs/
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Python cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+
+# Windows
+*.exe
+.vs/
+
+# Visual Studio / CMake generated state
+.vs/
+CppProperties.json
